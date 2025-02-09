@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://kit.fontawesome.com/8733ac514e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rahul's Portfolio</title>
+</head>
+
+<body>
+    <header class="header second-bg container mx-auto">
+        <nav class="nav-title text-cent">
+            <h1>Rah<span class="text_primary">u</span>l's Portfolio</h1>
+            <ul></ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greeting dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Rahul Deb Mondal</h1>
+                <button class="btn-primary" onclick="window.open('/images/CV_Rahul_Deb_Mondal.pdf', '_blank')">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </button>
+
+                <button class="btn-primary" onclick="window.location.href='mailto:cserahulmondal@gmail.com'">
+                    <i class="fa-solid fa-phone"></i> Contact
+                </button>
+
+            </div>
+            <img class="banner-img" src="/images/rahul.png" alt="Rahul's-image">
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <section class="about second-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description text-2xl font-semibold">I am a dedicated Computer Science graduate with
+                expertise in Artificial Intelligence, machine learning, data science and
+                app development. With experience in research, development, and teaching, I have contributed to
+                innovative solutions
+                in technology. I am passionate about advancing my skills and knowledge to create impactful, data-driven
+                innovations
+                that address real-world challenges.</p>
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">Name:</p>
+                    <p class="item-description font-bold">Rahul Deb Mondal</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email:</p>
+                    <p class="item-description font-bold">cserahulmondal@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of Birth:</p>
+                    <p class="item-description font-bold">16 Sep, 1998</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From:</p>
+                    <p class="item-description font-bold">Khulna, Bangladesh</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container mx-auto p-6 bg-cyan-100 shadow-md">
+            <h1 class="text-5xl font-semibold text-cyan-950 mb-8 text-center ">Works</h1>
+
+            <div class="space-y-8 mx-auto">
+                <div class="border-b pb-6 border-2 border-orange-900 px-2 py-2">
+                    <!-- 8 Image Grid -->
+                    <div class="grid md:grid-cols-4 gap-4 mt-8 mb-8">
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn1.png" alt="Image 1"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn2.png" alt="Image 2"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn3.png" alt="Image 3"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn4.png" alt="Image 4"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn5.png" alt="Image 5"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn6.png" alt="Image 6"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn7.jpeg" alt="Image 7"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/CNN/cnn8.png" alt="Image 8"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold text-gray-900"> Custom Convolutional Neural Network-Based
+                            Multiclass Skin Lesion Classification
+                            <a href="https://drive.google.com/file/d/10rTUyAHsCbA45hJhox3HfVhn7upDu_bi/view"
+                                target="_blank" class="text-blue-600 hover:underline">
+                                (Thesis Report link)
+                            </a>
+                        </h2>
+                    </div>
+                    <p><strong>Description:</strong> This project focuses on using AI to enhance dermatological
+                        diagnostics by classifying multiple types of skin lesions, providing a reliable and efficient
+                        method for early detection.</p>
+                    <p><strong>Summary:</strong> Developed a deep learning model for automated skin lesion
+                        classification using a custom CNN, achieving <span class="font-bold">98.03%</span> accuracy
+                        across seven classes.</p>
+                    <p><strong>Background:</strong> This research was inspired by personal health experiences and the
+                        potential of AI in medical diagnostics, leading to improved early detection of dermatological
+                        diseases.</p>
+                    <p><strong>Skills Demonstrated:</strong> <span class="text-blue-500 font-bold">Deep Learning, CNN,
+                            Python, TensorFlow, Keras, Data Preprocessing, Medical AI Applications</span></p>
+                    <p><strong>Contribution:</strong> Designed and implemented the CNN model, conducted dataset
+                        preprocessing and augmentation, and optimized hyperparameters for improved accuracy.</p>
+                </div>
+
+                <div class="border-b pb-6 border-2 border-orange-900 px-2 py-2">
+                    <!-- 8 Image Grid -->
+                    <div class="grid md:grid-cols-4 gap-4 mt-8 mb-8">
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa1.png" alt="Image 1"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa2.png" alt="Image 2"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa3.png" alt="Image 3"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa4.png" alt="Image 4"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa5.png" alt="Image 5"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa6.png" alt="Image 6"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa7.png" alt="Image 7"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/LUFFA/luffa8.png" alt="Image 8"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-gray-900">Luffa Aegyptiaca Disease Detection Using KNN and
+                        Random Forest (work in process)</h2>
+                    <p><strong>Description:</strong> A machine learning-based agricultural project that helps detect
+                        plant diseases early, reducing economic loss and improving farming efficiency.
+                    </p>
+                    <p><strong>Summary:</strong> Applied machine learning techniques to detect and classify diseases in
+                        Luffa Aegyptiaca plants using KNN and Random Forest models. achieving KNN Accuracy:
+                        <strong>0.98</strong>
+                        Random Forest Accuracy: <strong>0.92</strong>
+                    </p>
+                    <p><strong>Background:</strong> This research focused on precision agriculture, developing an
+                        automated system for early disease detection to assist farmers in improving crop yield and
+                        sustainability.</p>
+                    <p><strong>Skills Demonstrated:</strong> <span class="text-blue-500 font-bold">Machine Learning,
+                            KNN, Random Forest, Feature Extraction, Image Processing, Python, Scikit-learn,
+                            OpenCV</span></p>
+                    <p><strong>Contribution:</strong> Led model development, implemented image preprocessing techniques,
+                        and conducted performance evaluation with confusion matrices and accuracy metrics.</p>
+                </div>
+
+                <div class="border-b pb-6 border-2 border-orange-900 px-2 py-2">
+
+
+                    <h2 class="text-2xl font-semibold text-gray-900">Flutter PayPal Pay SDK</h2>
+                    <p><strong>Description:</strong> A widely-used payment SDK that improves transaction security and
+                        reliability for Flutter developers by integrating PayPal v2 API.</p>
+                    <p><strong>Summary:</strong> In this SDK, I've transitioned from using the deprecated PayPal v1 API
+                        to the latest and most advanced PayPal v2 API. This shift represents a significant improvement
+                        in my package, ensuring the utmost security, reliability, and compatibility with current
+                        industry standards.</p>
+                    <p><strong>Background:</strong> This project enhances payment gateway integrations in Flutter
+                        applications by providing a more secure and optimized transaction experience.</p>
+                    <p><strong>Skills Demonstrated:</strong> <span class="text-blue-500 font-bold">Flutter, Dart, REST
+                            API, Payment Gateway Integration, Open Source Contribution</span></p>
+                    <p><strong>Contribution:</strong> Developed and maintained the SDK, upgraded to PayPal v2 API for
+                        enhanced security, and achieved 71 downloads, reflecting its adoption in the developer
+                        community.</p>
+                    <p class="font-bold underline"><strong>Links:</strong>
+                        <a href="https://github.com/rahuldm/flutter_paypal_pay" class="text-blue-500 hover:underline"
+                            target="_blank">GitHub</a> |
+                        <a href="https://pub.dev/packages/flutter_paypal_pay" class="text-blue-500 hover:underline"
+                            target="_blank">Pub Dev</a>
+                    </p>
+                </div>
+
+                <div class="border-b pb-6 border-2 border-orange-900 px-2 py-2">
+                    <!-- 8 Image Grid -->
+                    <div class="grid md:grid-cols-5 gap-4 mt-8 mb-8">
+                        <div class="relative group">
+                            <img src="/images/gamespace/1.png" alt="Image 1"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/gamespace/2.png" alt="Image 2"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/gamespace/3.png" alt="Image 3"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/gamespace/4.png" alt="Image 4"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                        <div class="relative group">
+                            <img src="/images/gamespace/5.png" alt="Image 5"
+                                class="w-full h-auto transition-transform transform group-hover:scale-110">
+                        </div>
+                    </div>
+
+                    <h2 class="text-2xl font-semibold text-gray-900">Cross-Platform Game App (Game Space) Using Flutter
+                    </h2>
+                    <p><strong>Description:</strong> A fun and interactive cross-platform game that highlights skills in
+                        mobile development and game mechanics implementation using Flutter.</p>
+                    <p><strong>Summary:</strong> Designed and developed a cross-platform game application using Flutter,
+                        focusing on engaging gameplay and smooth performance.</p>
+                    <p><strong>Background:</strong> Gaming and app development were early inspirations for pursuing
+                        computer science, and this project showcases skills in UI/UX and performance optimization.</p>
+                    <p><strong>Skills Demonstrated:</strong> <span class="text-blue-500 font-bold">Mobile App
+                            Development, Flutter, Dart, UI/UX Design, Firebase Integration</span></p>
+                    <p><strong>Contribution:</strong> Developed core game mechanics, implemented animations, optimized
+                        UI for responsiveness, and integrated Firebase for real-time data management.</p>
+                        <p class="font-bold underline"><strong>Links:</strong>
+                            <a href="https://github.com/rahuldm/GameSpace" class="text-blue-500 hover:underline"
+                                target="_blank">GitHub</a> 
+                            
+                        </p>
+                </div>
+
+                <div class="pb-6 border-2 border-orange-900 px-2 py-2">
+                    <h2 class="text-2xl font-semibold text-gray-900"> Web Development Projects </h2>
+                    <p><strong>Description:</strong> Designed and built various responsive web applications using modern
+                        technologies, improving user experience and business functionality.</p>
+                    <p><strong>Summary:</strong> Worked on various web development projects, creating responsive and
+                        dynamic websites with a strong focus on front-end and back-end technologies.</p>
+                    <p><strong>Background:</strong> Web development plays a crucial role in modern digital solutions,
+                        and this experience enhanced my ability to build scalable, user-friendly web applications.</p>
+                    <p><strong>Skills Demonstrated:</strong> <span class="text-blue-500 font-bold">HTML, CSS,
+                            JavaScript, React.js, Node.js, UI/UX design, API integration, database management.</span>
+                    </p>
+                    <p><strong>Contribution:</strong> Designed and implemented interactive web interfaces, developed
+                        REST APIs, optimized web performance, and ensured cross-browser compatibility.</p>
+                        <p class="font-bold underline"><strong> Github Links:</strong>
+                            <a href="https://rahuldm.github.io/groceries-shop/" class="text-blue-500 hover:underline"
+                                target="_blank">groceries-shop</a> |
+                            <a href="https://rahuldm.github.io/Kids-School/" class="text-blue-500 hover:underline"
+                                target="_blank">Kids-School</a> |
+                            <a href="https://rahuldm.github.io/legal-Solution" class="text-blue-500 hover:underline"
+                                target="_blank">legal-Solution</a> 
+                            
+                        </p>
+
+                    <!-- Embed Website -->
+                    <div class="mt-4">
+                        <iframe src="https://rahuldm.github.io/groceries-shop/" width="100%" height="500px"
+                            class="border rounded-lg shadow-md mb-2"></iframe>
+                        <a href="https://rahuldm.github.io/groceries-shop/" class="text-blue-500 hover:underline"
+                            target="_blank"><button class="btn bg-red-300">Visit Website</button></a>
+                    </div>
+
+                    <!-- Link to Website -->
+                    <p class="mt-4">
+                        <iframe src="https://rahuldm.github.io/Kids-School/" width="100%" height="500px"
+                            class="border rounded-lg shadow-md"></iframe>
+                        <a href="https://rahuldm.github.io/Kids-School/" class="text-blue-500 hover:underline"
+                            target="_blank"><button class="btn bg-red-300">Visit Website</button></a>
+                    </p>
+
+                    <!-- Link to Website -->
+                    <p class="mt-4">
+                        <iframe src="https://rahuldm.github.io/legal-Solution/" width="100%" height="500px"
+                            class="border rounded-lg shadow-md"></iframe>
+                        <a href="https://rahuldm.github.io/legal-Solution/" class="text-blue-500 hover:underline"
+                            target="_blank"><button class="btn bg-red-300">Visit Website</button></a>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
+
+
+<!-- <section class="">
+            <h3 class="section-title">
+                What I do
+            </h3>
+            <p class="section-description">
+                I have more than 10 years experience building software for clients all over the world. Below is a quick
+                overview of my main technical skill sets and technologies i use. Want to find out more about my
+                experience? Check out my online resume and project portfolio.
+            </p>
+            <div class="skill-container">
+                <div class="skill">
+                    <img class="img" src="images/icons/js.png" alt="javaScript">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img class="img" src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img class="img" src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img class="img" src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="resume ">
+            <h3 class="section-title">A summary of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="experinece">
+                        <h4 class="experience-title">Master in Computer Engineering</h4>
+                        <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="experinece">
+                        <h4 class="experience-title">Master in Computer Engineering</h4>
+                        <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="experinece">
+                        <h4 class="experience-title">Master in Computer Engineering</h4>
+                        <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="experinece">
+                        <h4 class="experience-title">Sr. Font End Developer</h4>
+                        <h5 class="experience-subtitle">Apple Inc / 2020 - Current</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="experinece">
+                        <h4 class="experience-title">Jr. Font End Developer</h4>
+                        <h5 class="experience-subtitle">Dribbble Inc / 2018 - 2022</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="experinece">
+                        <h4 class="experience-title">HTML Developer</h4>
+                        <h5 class="experience-subtitle">Adobe Inc / 2017 - 2018</h5>
+                        <p class="experience-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="btn-cv-download"><button class="btn-primary"> <i class="fa-solid fa-download"></i> Download
+                    CV</button></div>
+        </section> -->
+<!-- <footer class="second-bg footer-container">
+        <div class="footer-column">
+            <h3 class="section-title">Lets Connect</h3>
+            <p class="section-description">Please fill out the form on this section to contact with me or call between
+                9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Let’s Message me</h3>
+            <form action="">
+                <input type="text" name="Your Name" id="" placeholder="Your Name">
+                <input type="email" name="Your Email" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </footer> -->
